@@ -1680,6 +1680,9 @@ textarea {
         margin-right: auto;
         padding: 8px 20px;
         font-size: 13px;
+        white-space: normal;
+        line-height: 24px;
+        font-size: 120%;
     }
     #main-slider .caption-text .btn:first-child {
         margin-top: 50px;
