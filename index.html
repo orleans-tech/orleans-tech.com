@@ -364,6 +364,18 @@
           }
       });
 
+      // fixed menu toggle
+      jQuery('.menu-toggle').on('click', function(e){
+        e.preventDefault();
+        if(jQuery('.navigation').hasClass('opened')) {
+          jQuery(this).find('.fa').removeClass('fa-times').addClass('fa-bars');
+          jQuery('.navigation').removeClass('opened').addClass('closed');
+        } else {
+          jQuery(this).find('.fa').removeClass('fa-bars').addClass('fa-times');
+          jQuery('.navigation').removeClass('closed').addClass('opened');
+        }
+      });
+
     });
 
     jQuery(window).load(function () {

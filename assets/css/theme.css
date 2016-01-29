@@ -1352,7 +1352,8 @@ textarea {
     .sf-menu ul {display: block !important; position: relative;}
     .sf-menu ul li {background-color: transparent;}
     .menu-toggle {display: block; z-index: 1;}
-    .navigation.closed .menu-toggle {right: 15px;}
+    .navigation.closed .menu-toggle {right: 15px; top: 37px;}
+    .shrink .navigation.closed .menu-toggle {top: 15px;}
     .navigation.opened .menu-toggle {right: 15px; top: 7px;}
 }
 
@@ -1689,6 +1690,7 @@ textarea {
         /*display: none;*/
         padding-left: 0;
         padding-right: 0;
+        background-color: rgba(0,0,0,0.5);
     }
     #main-slider .caption-title {}
     #main-slider .caption-title span {padding: 0;}
@@ -1702,6 +1704,11 @@ textarea {
         margin-top: 10px;
     }
     .event-description {}
+
+    .logo img {
+      width: 70%;
+      max-width: 350px;
+    }
 }
 
 
