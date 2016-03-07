@@ -1625,7 +1625,7 @@ textarea {
 
 #main-slider .caption-subtitle {
     font-family: 'Raleway', sans-serif;
-    font-size: 65px;
+    font-size: 45px;
     font-weight: 900;
     color: #ffffff;
     text-shadow: 1px 1px #000000;
@@ -1649,10 +1649,8 @@ textarea {
 }
 @media (max-width: 991px) {
     #main-slider .caption-subtitle,
-    #main-slider .caption-text {
-        margin-top: 20px;
-    }
-    #main-slider .caption-title {font-size: 60px;}
+    #main-slider .caption-text {margin-top: 20px;}
+    #main-slider .caption-title {font-size: 45px;}
     #main-slider .caption-subtitle {font-size: 22px;}
     #main-slider .caption-text {font-size: 12px;}
 }
@@ -1668,7 +1666,7 @@ textarea {
     #main-slider .caption-title span:after {
         top: 15px;
     }
-    #main-slider .caption-subtitle {font-size: 20px;}
+    #main-slider .caption-subtitle {font-size: 40px;}
     #main-slider .caption-text {font-size: 12px;}
 
     #main-slider .caption-text .btn:first-child,
@@ -1939,14 +1937,6 @@ textarea {
     bottom: 0; right: 0;
     background-color: rgba(220, 20, 60, .7);
 }
-.slide6:before {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0; left: 0;
-    bottom: 0; right: 0;
-    background-color: rgba(13, 29, 49, 0.7);
-}
 
 /* ========================================================================== */
 
@@ -2006,7 +1996,6 @@ textarea {
 
 #main-slider .slide5 h2 {color: #ffffff; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 36px;}
 #main-slider .slide5 .avatar img {display: inline-block;}
-#main-slider .slide5 .caption-subtitle {color: #ffffff; font-size: 60px;}
 #main-slider .slide5 .btn-theme {border-radius: 5px;}
 
 #main-slider .slide5 .countdown-wrapper {font-family: 'Raleway', sans-serif; margin-top: 30px;}
@@ -2018,28 +2007,6 @@ textarea {
 #main-slider .slide5 .countdown-wrapper .countdown-show4 .countdown-section + .countdown-section {margin-left: 3%;}
 #main-slider .slide5 .countdown-wrapper .countdown-amount {text-shadow: none; font-family: 'Raleway', sans-serif; font-size: 36px; line-height: 36px; font-weight: bold; color: #ffffff; display: block; margin: 5px 0 13px 0; vertical-align: middle;}
 #main-slider .slide5 .countdown-wrapper .countdown-period {text-shadow: none; font-family: 'Raleway', sans-serif; font-size: 12px; line-height: 12px; font-weight: bold; color: #ffffff; border-top: solid 1px #ffffff; padding: 8px 3px;}
-
-#main-slider .slide6 {text-align: left;}
-#main-slider .slide6 .event-image img {border: solid 5px #b9b6bf; border-radius: 9px;}
-#main-slider .slide6 .caption-subtitle {font-size: 48px; line-height: 52px; margin-top: 0;}
-#main-slider .slide6 .caption-title {font-size: 34px; line-height: 38px; font-family: 'Roboto', sans-serif; text-transform: none;}
-#main-slider .slide6 .caption-text {margin-top: 15px;}
-#main-slider .slide6 .btn-theme {font-size: 15px;}
-
-#main-slider .slide6 .caption-subtitle,
-#main-slider .slide6 .caption-title,
-#main-slider .slide6 .caption-text {margin-left: 30px;}
-
-@media (max-width: 1199px) {
-    #main-slider .slide6 .caption-subtitle {font-size: 40px; line-height: 48px;}
-    #main-slider .slide6 .caption-title {font-size: 24px; line-height: 32px;}
-
-}
-@media (max-width: 992px) {
-    #main-slider .slide6 .caption-subtitle {font-size: 28px; line-height: 30px;}
-    #main-slider .slide6 .caption-title {font-size: 18px; line-height: 24px;}
-
-}
 
 /* 3.2 - Event description
 /* ========================================================================== */
