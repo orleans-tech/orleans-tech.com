@@ -1625,8 +1625,8 @@ textarea {
 
 #main-slider .caption-subtitle {
     font-family: 'Raleway', sans-serif;
-    font-size: 45px;
-    font-weight: 900;
+    font-size: 26px;
+    font-weight: 600;
     color: #ffffff;
     text-shadow: 1px 1px #000000;
     text-transform: uppercase;
@@ -1642,11 +1642,6 @@ textarea {
     margin: 30px 0 0 0;
 }
 #main-slider .caption-text .btn:first-child {margin-right: 30px;}
-@media (max-width: 1024px) {
-    #main-slider .caption-subtitle {
-        font-size: 50px;
-    }
-}
 @media (max-width: 991px) {
     #main-slider .caption-subtitle,
     #main-slider .caption-text {margin-top: 20px;}
@@ -1666,7 +1661,6 @@ textarea {
     #main-slider .caption-title span:after {
         top: 15px;
     }
-    #main-slider .caption-subtitle {font-size: 40px;}
     #main-slider .caption-text {font-size: 12px;}
 
     #main-slider .caption-text .btn:first-child,
