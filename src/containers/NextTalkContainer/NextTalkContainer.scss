@@ -1,0 +1,10 @@
+@import 'src/css/vars.scss';
+.NextTalkContainer {
+  .TalkComponent .title {
+    font-size: 1.7em;
+  }
+  &.noTalks {
+    text-align: center;
+    padding: 1em 0;
+  }
+}

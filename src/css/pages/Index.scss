@@ -1,0 +1,18 @@
+@import 'src/css/vars.scss';
+.HomeSponsorsContainer {
+    background-color: $colorGreyLighest;
+    padding: 20px 0;
+    .headline {
+        display: block;
+        font-size: 1.4em;
+        font-weight: bold;
+        font-family: $titleFontFamily;
+    }
+    .desc {
+        display: block;
+        font-size: 1.1em;
+    }
+    .SponsorsContainer {
+        margin-top: 1em;
+    }
+}

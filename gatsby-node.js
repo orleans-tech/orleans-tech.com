@@ -1,25 +1,10 @@
 import Shell from 'child_process'
 
-
-/*
-import ExtractTextPlugin from 'extract-text-webpack-plugin'
-
-const modifyWebpackConfig = function(config, env) {
-  // edit loaders here
-
-  return config
-}
-
-
-
-
 function postBuild(pages, callback) {
-  Shell.execSync("mkdir -p public/assets")
-  Shell.execSync("cp -r assets/* public/assets")
+  console.log('Copy assets from directory to public artifact')
+  Shell.execSync('mkdir -p public')
+  Shell.execSync('cp -r src/assets/ico/* public')
   callback()
 }
 
-
-export { modifyWebpackConfig }
-
-*/
+export { postBuild }

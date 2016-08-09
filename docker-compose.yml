@@ -1,0 +1,29 @@
+version: '2'
+services:
+  run:
+    build: .
+    ports:
+      - 8080:80
+
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile-build
+    volumes:
+      - ./public:/usr/src/app/public
+
+  checkstyle:
+    build:
+      context: .
+      dockerfile: Dockerfile-build
+    command: npm run checkstyle
+    volumes:
+      - ./src:/usr/src/app/src
+
+  fmt:
+    build:
+      context: .
+      dockerfile: Dockerfile-build
+    command: npm run fmt
+    volumes:
+      - ./src:/usr/src/app/src

@@ -1,45 +1,26 @@
-import React from 'react'
-import { Container } from 'react-responsive-grid'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
-import Headroom from 'react-headroom'
-import { rhythm } from 'utils/typography'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
+import _ from 'lodash'
+import Link from 'react-router/lib/Link'
+import { getCurrentCategory } from 'src/utils/category'
+import HeaderContainer from 'src/containers/HeaderContainer'
+import FooterContainer from 'src/containers/FooterContainer'
 
-import orleansTechLogo from '../assets/img/orleans-tech.svg'
+import 'src/css/template.scss'
 
-import 'css/template.less'
+export default class Template extends Component {
+  static propTypes = {
+    children: PropTypes.any
+  }
 
-module.exports = React.createClass({
-  propTypes () {
-    return {
-      children: React.PropTypes.any,
-    }
-  },
-  render () {
+  render() {
+    const currentCategory = getCurrentCategory()
     return (
-      <div>
-        <header id={'header'}>
-          <nav className={'mainNav'}>
-            <ul>
-              <li className={'mainNavMeetup'}><Link to={prefixLink('/')}>Meetup</Link></li>
-              <li className={'mainNavConf'}><Link to={prefixLink('/conf/')}>Conférence</Link></li>
-              <li className={'mainNavBbl'}><Link to={prefixLink('/bbl/')}>BBL</Link></li>
-              <li className={'mainNavOrganization'}><Link to={prefixLink('/association/')}>L'association</Link></li>
-            </ul>
-          </nav>
-          <Link to={prefixLink('/meetup/speakers/')} className={"title"}>
-            <h1>{'Orléans Tech'}</h1>
-          </Link>
-          <nav className={'secondaryNav'}>
-            <ul>
-              <li><Link to={prefixLink('/meetup/speakers/')}>Les speakers</Link></li>
-              <li><Link to={prefixLink('/meetup/sponsors/')}>Nos sponsors</Link></li>
-              <li><Link to={prefixLink('/contact/')}>Contact</Link></li>
-            </ul>
-          </nav>
-        </header>
+      <div className={`category${_.capitalize(currentCategory)}`}>
+        <HeaderContainer currentCategory={currentCategory} />
         {this.props.children}
+        <FooterContainer />
       </div>
     )
-  },
-})
+  }
+}

@@ -1,0 +1,15 @@
+@import 'src/css/vars.scss';
+.TalksContainer {
+  padding-top: 10px;
+  .separator {
+    margin: 0 auto;
+    width: 40%;
+  }
+}
+
+.UpcomingTalkContainer {
+  background-color: $colorGreyLighest;
+  .separator {
+    display: none;
+  }
+}

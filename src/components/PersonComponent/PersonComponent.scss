@@ -1,0 +1,35 @@
+@import 'src/css/vars.scss';
+.PersonComponent {
+  display: inline-block;
+  width: 174px;
+  height: 200px; // background-color: green;
+  vertical-align: top; // border-bottom: 2px solid black;
+  .name {
+    // color: red;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin: 10px 0 0 0;
+    padding: 0;
+    text-align: center;
+  }
+  .links {
+    // color: blue;
+    display: block;
+    text-align: center;
+    font-size: 1.3em;
+    a {
+      padding-right: 8px;
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+  .photo {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 60px;
+  }
+}

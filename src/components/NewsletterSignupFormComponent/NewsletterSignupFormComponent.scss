@@ -1,0 +1,64 @@
+@import 'src/css/vars.scss';
+.NewsletterSignupFormComponent {
+  background-color: $colorGreyLighest;
+  padding: 20px 0;
+  .headline {
+    display: block;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: $titleFontFamily;
+  }
+  .desc {
+    display: block;
+    font-size: 1.1em;
+  }
+  form {
+    display: block;
+    height: 44px;
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+  input {
+    font-size: 0.75em;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: normal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 250px;
+  }
+  button {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: #70d0e9;
+    line-height: normal;
+    text-rendering: auto;
+    text-shadow: none;
+    top: 0px;
+    vertical-align: middle;
+    width: 44px;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    &:hover {
+      cursor: pointer;
+    }
+    .fa {
+      font-size: 1.4em;
+      color: white;
+    }
+  }
+  .message.registered {
+    color: $colorConf;
+  }
+}

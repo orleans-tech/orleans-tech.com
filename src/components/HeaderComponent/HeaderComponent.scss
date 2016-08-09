@@ -1,0 +1,100 @@
+@import 'src/css/vars.scss';
+.HeaderComponent {
+  text-align: center;
+  height: 110px;
+  .title {
+    display: block;
+    margin-top: 13px;
+    float: left;
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+    img {
+      margin: 0;
+      padding: 0;
+      height: 60px;
+    }
+  }
+  .mainNavTalks a {
+    border-bottom: 1px solid $colorTalk;
+  }
+  .mainNavSummit a {
+    border-bottom: 1px solid $colorConf;
+  }
+  .mainNavBbl a {
+    border-bottom: 1px solid $colorBbl;
+  }
+  .mainNavOrga a {
+    border-bottom: 1px solid $colorOrga;
+  } // Specific use-case for root path
+  .mainNavDefault a .fa {
+    color: $colorGreyLight;
+  }
+  .mainNavDefault a.active .fa {
+    color: $colorGreyUltrahard;
+  }
+  .navigationContainer {
+    text-align: right;
+  }
+  .mainNav {
+    $mainNavHeight: 73px;
+    font-family: $titleFontFamily;
+    position: relative;
+    height: $mainNavHeight;
+    width: calc(100% - 215px);
+    float: right;
+    .mainNavContainer {
+      position: absolute;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      right: 0;
+      bottom: 4px;
+    }
+    .active {
+      font-weight: bold;
+      color: $colorGreyUltrahard;
+    }
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 0;
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: $colorGreyUltrahard;
+      font-size: 1.3em;
+      /*
+      &::before {
+        content: '#'
+      }*/
+    }
+  }
+  .secondaryNav {
+    font-family: 'Lekton';
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+    a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: $colorGreyLight;
+      &.active {
+        color: $colorGreyHard;
+      }
+    }
+  }
+}

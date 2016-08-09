@@ -1,0 +1,17 @@
+@import 'src/css/vars.scss';
+.FooterComponent {
+  font-size: 0.8em;
+  text-align: center;
+  color: $colorGreyLight;
+  padding: 20px 0 20px 0;
+  p {
+    margin-bottom: 0.1em;
+  }
+  a {
+    color: $colorBlackLight;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
