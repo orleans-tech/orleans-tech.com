@@ -1,0 +1,38 @@
+{
+    "0": {
+        "created": 1468215849000,
+        "id": "232530367",
+        "name": "Thème BlockChain + Soirée pizzas sponsorisée par Pentalog",
+        "rsvp_limit": 60,
+        "status": "upcoming",
+        "time": 1469554200000,
+        "updated": 1468250062000,
+        "utc_offset": 7200000,
+        "waitlist_count": 0,
+        "yes_rsvp_count": 40,
+        "venue": {
+            "id": 24534825,
+            "name": "Le LAB'O",
+            "lat": 47.89387130737305,
+            "lon": 1.894199013710022,
+            "repinned": false,
+            "address_1": "1 avenue du Champs de Mars",
+            "city": "Orléans",
+            "country": "fr",
+            "localized_country_name": "France"
+        },
+        "group": {
+            "created": 1415720967000,
+            "name": "Orléans Tech Talks",
+            "id": 18181455,
+            "join_mode": "open",
+            "lat": 47.900001525878906,
+            "lon": 1.899999976158142,
+            "urlname": "Orleans-Tech-Talks",
+            "who": "Members"
+        },
+        "link": "http://www.meetup.com/Orleans-Tech-Talks/events/232530367/",
+        "description": "<p>Bonjour à toutes et à tous,</p> <p><br/>Ce 15ème meetup sera orienté sur la BlockChain, pour ceux qui ne connaissent pas, c'est la technologie utilisée à l'origine pour la monnaie numérique bitcoin. Rejoignez-nous le mardi 26 juillet à partir de 19h pour en savoir plus ! <i>(début des présentations à 19h30)</i></p> <p>Les sujets abordés seront:</p> <p>• <b>Aymeric Libeau</b> nous fera une présentation stratégique de la technologie ainsi que ses enjeux pour les années à avenir</p> <p>• <b>Aymen Chakhari</b> réalisera une démonstration d'une implémentation technique de la blockchain.</p> <p><br/>Pour les amateurs de la technologie ainsi que pour les curieux, n'hésitez pas à nous rejoindre, des pizzas/boissons seront proposées à la fin des présentations pour que l'on puisse échanger tous ensemble.</p> <p>Merci beaucoup à Pentalog de nous soutenir et de sponsoriser cet évènement. </p> <p>--------------------</p> <p>Vous souhaitez héberger / sponsoriser un meetup ? contactez-nous !</p> <p>• par mail -&gt; stan@orleans-tech.com</p> <p>• par twitter -&gt; <a href=\"https: //twitter.com/orleans_tech\">@orleans_tech</a></p> <p>• sur slack -&gt; <a href=\"http://slack.orleans-tech.com/\"><a href=\"http://slack.orleans-tech.com\" class=\"linkified\">http://slack.orleans-tech.com</a></a></p> <p>Merci encore à Pentalog de soutenir Orléans Tech !</p> <p>@ Bientôt.</p> <p>Stan</p> ",
+        "visibility": "public"
+    }
+}
